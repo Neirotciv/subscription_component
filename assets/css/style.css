@@ -1,0 +1,45 @@
+body {
+    background-color: hsl(218, 22%, 67%);
+    font-family: "Karla";
+}
+
+.component__wrapper {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.component__header {
+    padding: 20px;
+}
+
+.component__title {
+    color: hsl(179, 62%, 43%);
+}
+
+.component__left {
+    padding: 20px;
+    border-radius: 0 0 0 10px;
+    background-color: hsl(179, 62%, 43%);
+}
+
+.component__left-button {
+    background-color: hsl(71, 73%, 54%);
+}
+
+.component__right {
+    padding: 20px;
+    border-radius: 0 0 10px;
+    background-color: hsl(179, 52%, 62%);
+}
+
+.horizontal-flex {
+    display: flex;
+}
+
+.vertical-flex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
