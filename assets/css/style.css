@@ -97,3 +97,22 @@ body {
     flex-direction: column;
     width: 100%;
 }
+
+@media (max-width: 900px) {
+    .component__wrapper {
+        width: 90%;
+    }
+
+    .horizontal-flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .component__left {
+        border-radius: 0;
+    }
+
+    .component__right {
+        border-radius: 0 0 10px 10px;
+    }
+}
